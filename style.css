@@ -1,1 +1,19 @@
 /* Add your styles here */
+
+.head{
+    padding-top: 40 px;
+    width: 40 px;
+    height:40 px;
+
+    text-align: left;
+ 
+    }
+
+
+.options{
+    padding-top: 60 px;
+    width: 60 px;
+    height:60 px;
+
+    text-align: center;
+}
