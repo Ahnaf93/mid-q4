@@ -3,14 +3,12 @@
   <head>
     <title>Mid Q4</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
   </head>
   <body>
- <!-- Your site content here -->
-      <script src="jquery-3.3.1.min.js"></script>
-      <script src="script.js"></script>
+ 
 
-
-    <div class= "head">
+    <div class= "head" text-align=>
       <h1>Pressure Cooker</h1></div>
 
 
@@ -20,11 +18,21 @@
   <p> End Temperature   <input type="text" name="FirstName" value=""></input></p>
 
   <p> Intervals (in milliseconds)   <input type="text" name="FirstName" value=""></input></p>
-  <button class='cook'>Start</button>
-  
+ 
+  <input type="button"  value="Start" id="cook"  onclick ="doOnClick()" />
+
   
 
-</div>
+   <!-- prog. bar  -->
+
+   <div class="progress-bar" style="--width: 10" data-label="Cooking..."></div>
+
+  
+
+<!-- Your site content here -->
+<script src="jquery-3.3.1.min.js"></script>
+<script src="script.js"></script>
+
 
 
   </body>
